@@ -1,2 +1,2 @@
-# kotlinopenidconnecttest
-Kotlin Spring boot OpenID Connect test
+# kotlin google openid connect test
+Kotlin Spring boot Google OpenID Connect test
