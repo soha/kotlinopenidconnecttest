@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    image: "e30c85d816c2"
+    environment:
+        - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENTID
+        - SPRING_SECURITY_OAUTH2_CLIENT_REGISTRATION_GOOGLE_CLIENTSECRET
+    ports:
+        - "8080:8080"
+
